@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  transition-duration: 0.4s;
+  transition-property: opacity;
+}
+
+.bd {
+  width: 100vw;
+  height: 100vh;
+  background: #3c88da; /* Old browsers */
+  background: -moz-linear-gradient(
+    -45deg,
+    #3c88da 0%,
+    #8859b7 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    -45deg,
+    #3c88da 0%,
+    #8859b7 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    135deg,
+    #3c88da 0%,
+    #8859b7 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c88da', endColorstr='#8859b7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .outer-form {
+    background: white;
+    width: 350px;
+    height: 550px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    .form {
+      width: 100%;
+    }
+
+    h4 {
+      color: rgb(32, 83, 104);
+      font-size: 30px;
+      margin-bottom: 50px;
+    }
+
+    input {
+      width: 70%;
+      height: 50px;
+      outline: none;
+      font-size: 16px;
+      text-align: left;
+      padding-left: 10px;
+      border: none;
+      border-bottom: 1px #3c88da solid;
+      &:last-child {
+        margin-top: 50px;
+      }
+    }
+    div {
+      margin: auto;
+      margin-bottom: 40px;
+      margin-top: 10px;
+      color: rgb(228, 76, 126);
+      font-size: 14px;
+      font-weight: 600;
+      text-align: left;
+      width: 60%;
+    }
+    button {
+      width: 72%;
+      height: 50px;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      font-size: 18px;
+      margin-top: 80px;
+      -webkit-box-shadow: 10px 10px 25px -12px rgba(0, 0, 0, 0.5);
+      -moz-box-shadow: 10px 10px 25px -12px rgba(0, 0, 0, 0.5);
+      box-shadow: 10px 10px 25px -12px rgba(0, 0, 0, 0.5);
+
+      background: #3c88da; /* Old browsers */
+      background: -moz-linear-gradient(
+        -45deg,
+        #3c88da 0%,
+        #8859b7 100%
+      ); /* FF3.6-15 */
+      background: -webkit-linear-gradient(
+        -45deg,
+        #3c88da 0%,
+        #8859b7 100%
+      ); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(
+        135deg,
+        #3c88da 0%,
+        #8859b7 100%
+      ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c88da', endColorstr='#8859b7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    }
+  }
+}
+.ct-box13 {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(124, 100, 190);
+
+  .box-3 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 150px;
+    background: url("Frame.svg") no-repeat;
+    background-size: contain;
+    border-radius: 5px;
+    opacity: 0;
+    padding-left: 20px;
+    margin-bottom: 50px;
+  }
+  .box-1 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    height: 150px;
+    background: url("Frame.svg") no-repeat;
+    background-size: contain;
+    border-radius: 5px;
+    opacity: 0;
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+}
+.ct-box2 {
+  color: rgb(124, 100, 190);
+  font-size: 15px;
+
+  font-weight: 600;
+  .box-2 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    background: url("Frame2.svg") no-repeat;
+    background-size: contain;
+    border-radius: 5px;
+    opacity: 0;
+    padding-right: 17px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .outer-form {
+    width: 800px;
+  }
+  .bd {
+    width: 800px;
+  }
+}
